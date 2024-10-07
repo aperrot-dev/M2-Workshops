@@ -1,0 +1,20 @@
+{
+    "extends": [
+        "airbnb"
+    ],
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "rules": {
+        "no-console": "off", // Autorise l'utilisation de console.log
+        "no-unused-vars": [
+            "warn",
+            {
+                "argsIgnorePattern": "^_"
+            }
+        ], // Ignore les variables commençant par _
+        "linebreak-style": 0 // Ignore les erreurs de style de saut de ligne pour éviter les conflits Windows/Unix
+    }
+}

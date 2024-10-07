@@ -1,0 +1,7 @@
+/node_modules/
+/dist/
+/out-tsc/
+/coverage/
+*.min.js
+*.bundle.js
+*.d.ts
